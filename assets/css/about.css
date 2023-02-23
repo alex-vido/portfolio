@@ -1,0 +1,14 @@
+.about__signature {
+    background-image: url(../img/signature.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 160px;
+}
+
+@media screen and (min-width: 1200px) {
+    .about__signature {
+        background-size: cover;
+        height: 150px;
+        width: 240px;  
+    }
+}

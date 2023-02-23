@@ -1,0 +1,90 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior:smooth;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.description {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.about, 
+.container, 
+.education, 
+.contact, 
+.header, 
+.hobbies, 
+.main, 
+.experience, 
+.skills {
+    padding: 1rem;
+}
+
+.about, 
+.education, 
+.contact {
+    background-color: #eafdf2;
+}
+
+.education,
+.hobbies, 
+.experience, 
+.skills {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .about, 
+    .container, 
+    .education, 
+    .contact, 
+    .header, 
+    .hobbies, 
+    .main, 
+    .experience, 
+    .skills {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about, 
+    .container, 
+    .education, 
+    .contact, 
+    .hobbies, 
+    .main, 
+    .experience, 
+    .skills {
+        padding: 2rem 8rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+        margin: 1rem 0;
+    }
+
+    .subtitle {
+        font-size: 1.8rem;
+    }
+    
+    .description {
+        font-size: 1.5rem;
+    }
+}

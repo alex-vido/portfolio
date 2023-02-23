@@ -1,0 +1,24 @@
+.button {
+    border-color: #21A366;
+    border-style: solid ;
+    border-width: 2px;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.button--white {
+    background-color: #f5f5f5;
+    color: #21A366;
+}
+
+.button--green {
+    background-color: #21A366;
+    color: #F5F5F5;
+}

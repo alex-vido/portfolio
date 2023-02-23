@@ -1,0 +1,70 @@
+.experience__link {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.experience__img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin: 1rem;
+    padding: 3rem;
+}
+.experience__img--kelly {
+    background-image: url(../img/kelly.png);
+}
+
+.experience__img--socialTree {
+    background-image: url(../img/socialTree.png);
+}
+
+.experience__img--proWay {
+    background-image: url(../img/proWay.png);
+}
+
+.experience__img--barbeariaAlura {
+    background-image: url(../img/barbeariaAlura.png);
+}
+
+.experience__img--aluraChallenge {
+    background-image: url(../img/aluraChallenge.png);
+}
+
+@media screen and (min-width: 768px) {
+    .experience__img {
+        padding: 10rem;
+    }
+
+    .experience .subtitle,
+    .experience .description,
+    .button__container {
+        display: flex;
+        justify-content: start;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .experience .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .experience .container:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .experience__img {
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        width: 600px;
+    }
+
+    .experience .subtitle,
+    .experience .description {
+        text-align: left;
+    }
+}

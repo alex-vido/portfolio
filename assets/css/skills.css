@@ -1,0 +1,113 @@
+.skills__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__item {
+    display: flex;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    width: 46%;
+}
+
+.skills__link__img {
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+    display: flex;
+    font-size: 1.5rem;
+	height: 200px;
+    justify-content: center;
+    text-decoration: none;
+	width: 150px;
+}
+    /* Icon Color #21A366 */
+.skills__link__img--html {
+    background-image: url(../../img/icons/icons8-html5.png);
+}
+
+.skills__link__img--css {
+    background-image: url(../../img/icons/icons8-css3.svg);
+}
+
+.skills__link__img--js {
+    background-image: url(../../img/icons/icons8-javascript.svg);
+}
+
+.skills__link__img--react {
+    background-image: url(../../img/icons/icons8-react.svg);
+}
+
+.skills__link__img--node {
+    background-image: url(../../img/icons/icons8-node.svg);
+}
+
+.skills__link__img--sass {
+    background-image: url(../../img/icons/icons8-sass.svg);
+}
+
+.skills__link__img--bootstrap {
+    background-image: url(../../img/icons/icons8-bootstrap.svg);
+}
+
+.skills__link__img {
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+    display: flex;
+    font-size: 1.5rem;
+	height: 200px;
+    justify-content: center;
+    text-decoration: none;
+	width: 150px;
+}
+    /* Icon Color #21A366 */
+.skills__link__img--html {
+    background-image: url(../img/icons/icons8-html5.png);
+}
+
+.skills__link__img--css {
+    background-image: url(../img/icons/icons8-css3.svg);
+}
+
+.skills__link__img--js {
+    background-image: url(../img/icons/icons8-javascript.svg);
+}
+
+.skills__link__img--react {
+    background-image: url(../img/icons/icons8-react.svg);
+}
+
+.skills__link__img--node {
+    background-image: url(../img/icons/icons8-node.svg);
+}
+
+.skills__link__img--sass {
+    background-image: url(../img/icons/icons8-sass.svg);
+}
+
+.skills__link__img--bootstrap {
+    background-image: url(../img/icons/icons8-bootstrap.svg);
+}
+
+@media screen and (min-width: 768px) {
+    .skills__item {
+        width: 30%;
+    }
+
+    .skills__ul {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skills__item {
+        width: 14.2%;
+    }
+
+}

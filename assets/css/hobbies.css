@@ -1,0 +1,63 @@
+.hobbies__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies__item {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    width: 46%;
+}
+
+.hobbies__item__img {
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    font-size: 1.5rem;
+	height: 200px;
+    justify-content: center;
+    text-decoration: none;
+	width: 150px;
+}
+
+    /* Icon Color #21A366 */
+
+.hobbies__item__img--travel {
+    background-image: url(../img/icons/icons8-travel.png);
+}
+
+.hobbies__item__img--sing {
+    background-image: url(../img/icons/icons8-sing.png);
+}
+
+.hobbies__item__img--series {
+    background-image: url(../img/icons/icons8-series.png);
+}
+
+.hobbies__item__img--music {
+    background-image: url(../img/icons/icons8-music.png);
+}
+
+.hobbies__item__img--read {
+    background-image: url(../img/icons/icons8-read.png);
+
+}
+
+.hobbies__item__img--eat {
+    background-image: url(../img/icons/icons8-eat.png);
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies__item {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hobbies__item {
+        width: 15%;
+    }
+}

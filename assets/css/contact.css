@@ -1,0 +1,63 @@
+.contact__container {
+	position:relative;
+	margin-bottom:25px;
+}
+.contact__label {
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#606060;	
+    cursor:none;
+	transition: all 0.5s ease-in-out;
+}
+.contact__input { 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#808080;
+}
+.contact__input:focus { 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #21A366;	
+}
+
+.contact__input:focus ~ .contact__label,
+.contact__input:valid ~ .contact__label{
+	top:-12px;
+	font-size:12px;	
+}
+
+.sucess {
+	color: #21A366;
+	font-size: 1.8rem;
+	text-align: center;
+    margin: 1rem 0;
+}
+
+.error {
+	color: tomato;
+	font-size: 1.8rem;
+	text-align: center;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+	.contact {
+		display: flex;
+	}
+	
+	.contact__img {
+		background-image: url(../img/contact.jpg);
+
+		background-size: cover;
+		height: 460px;
+		margin: 1rem;
+		width: 350px;
+				
+	}
+}
