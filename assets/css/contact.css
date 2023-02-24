@@ -11,6 +11,7 @@
     cursor:none;
 	transition: all 0.5s ease-in-out;
 }
+
 .contact__input { 
   border:0;
   border-bottom:1px solid #555;  
@@ -20,14 +21,19 @@
   font-size:16px;
   color:#808080;
 }
+
+.contact__input::placeholder {
+	visibility: hidden;
+    color: #00000000;
+}
+
 .contact__input:focus { 
  border:none;	
  outline:none;
  border-bottom:1px solid #21A366;	
 }
 
-.contact__input:focus ~ .contact__label,
-.contact__input:valid ~ .contact__label{
+.contact__input:not(:placeholder-shown) + .contact__label, .contact__input:focus + .contact__label {
 	top:-12px;
 	font-size:12px;	
 }
