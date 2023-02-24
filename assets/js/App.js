@@ -26,15 +26,15 @@ class FormSubmit {
       return formObject;
     }
   
-    onSubmission(e) {
-      e.preDefault();
-      e.target.disabled = true;
-      e.target.innerText = "Enviando...";
+    onSubmission(event) {
+      event.preventDefault();
+      event.target.disabled = true;
+      event.target.innerText = "Enviando...";
     }
   
-    async sendForm(e) {
+    async sendForm(event) {
       try {
-        this.onSubmission(e);
+        this.onSubmission(event);
         await fetch(this.url, {
           method: "POST",
           headers: {
@@ -51,7 +51,7 @@ class FormSubmit {
     }
   
     init() {
-      if (this.form) this.formButton.addeListener("click", this.sendForm);
+      if (this.form) this.formButton.addEventListener("click", this.sendForm);
       return this;
     }
   }
