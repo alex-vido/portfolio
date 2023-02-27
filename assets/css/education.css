@@ -65,7 +65,7 @@
 @media screen and (min-width: 1200px) {
 
     .education .container {
-        justify-content: start;  
+        justify-content: space-between;  
     }
 
     .education__container {
