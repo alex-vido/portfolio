@@ -65,8 +65,7 @@
 @media screen and (min-width: 1200px) {
 
     .education .container {
-        justify-content: space-between;
-    
+        justify-content: start;  
     }
 
     .education__container {
@@ -82,7 +81,7 @@
     .education__img {
         height: 100px;
         width: 200px;
-        padding: 3rem;
+        padding: 1rem 1.5rem;
     }
     
 }

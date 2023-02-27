@@ -12,6 +12,12 @@
 	transition: all 0.5s ease-in-out;
 }
 
+.contact__description {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
 .contact__input { 
   border:0;
   border-bottom:1px solid #555;  
